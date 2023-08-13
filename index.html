@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftinn-save our memories.</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/main.css">
+</head>
+<body>
+    
+    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                <img src = "images/shopping-bag-icon.png" class="lg-1" alt = "logo">
+                <span class = "text-uppercase fw-lighter ms-2">gift.innn</span>
+            </a>
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#special">specials</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "#collection">collection</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2 border-0">
+                        <a class = "nav-link text-uppercase text-dark" href = "#contactus">Contact Us</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2 border-0">
+                        <a class = "nav-link text-uppercase text-dark" href = "#followus">Follow Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
+        <div class = "container h-100 d-flex align-items-center carousel-inner">
+            <div class = "text-center carousel-item active">
+                <h2 class = "text-capitalize text-white">best collection</h2>
+                <h1 class = "text-uppercase py-2 fw-bold text-white">Quality products</h1>
+                <a href = "#contactus" class = "btn mt-3 text-uppercase">shop now</a>
+            </div>
+            <div class = "text-center carousel-item">
+                <h2 class = "text-capitalize text-white">best price & offer</h2>
+                <h1 class = "text-uppercase py-2 fw-bold text-white">trending product</h1>
+                <a href = "#contactus" class = "btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+
+        <button class = "carousel-control-prev" type = "button" data-bs-target="#header" data-bs-slide = "prev">
+            <span class = "carousel-control-prev-icon"></span>
+        </button>
+        <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
+            <span class = "carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- end of header -->
+
+    <!-- special products -->
+    <section id = "special" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center py-5">
+                <h2 class = "position-relative d-inline-block">Our Products</h2>
+            </div>
+
+            <div class = "special-list row g-0">
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "images/wallet non-illustration.jpg" class = "w-100 image">
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">wallet cards</p>
+                        <span class = "fw-bold d-block">Starting at 280/-</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "images/key non-illustration.jpg" class = "w-100 image">
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">Keychains</p>
+                        <span class = "fw-bold d-block">Starting at 350/-</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "images/canvas non illustration print.jpg" class = "w-100 image">
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">canvas</p>
+                        <span class = "fw-bold d-block">Starting at 599/-</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "images/frames non-illustration.jpg" class = "w-100 image">
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">Frames</p>
+                        <span class = "fw-bold d-block">Starting at 299/-</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "images/phone case -customized.jpg" class = " w-100 image">
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">Mobile Backcase</p>
+                        <span class = "fw-bold d-block">Starting at 299/-</span>
+                        <!--<a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>-->
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "images/Polaroid pics 15.jpg" class = " w-100 image">
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">Polaroid pics</p>
+                        <span class = "fw-bold d-block">Starting at 10/-</span>
+                        <!--<a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of special products -->
+
+     <!-- collection -->
+     <section id = "collection" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center">
+                <h2 class = "position-relative d-inline-block">New Collection</h2>
+            </div>
+
+            <div class = "row g-0">
+                <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type = "button" class = "btn m-2 text-dark active-filter-btn" data-filter = "*">All</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".wallet">Wallet Card</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".chains">Key Chains</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".canvas">Canvas</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".frames">Frames</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".case">Mobile case</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".polaroid">Polaroid photo</button>
+                </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3">
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 wallet">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/wallet detailed illustration.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Wallet Detailed illustration card</p>
+                            <span class = "fw-bold">Rs 450/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 wallet">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/wallet non-illustration.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Wallet Non-illustration card</p>
+                            <span class = "fw-bold">Rs 280/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 wallet">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/wallet minimal illustration.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Wallet minimal illustration card</p>
+                            <span class = "fw-bold">Rs 580/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 chains">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/key chain illustration.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Key Chains illustration</p>
+                            <span class = "fw-bold">Rs 500/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 chains">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/key non-illustration.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Key Chains Non-illustration</p>
+                            <span class = "fw-bold">Rs 350/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 canvas">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/canvas illustraction print.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Canvas illustraction print</p>
+                            <span class = "fw-bold">Rs 899/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 canvas">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/canvas non illustration print.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Canvas non-illustraction print</p>
+                            <span class = "fw-bold">Rs 599/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 frames">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/frames illustration 2.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">illustraction frames</p>
+                            <span class = "fw-bold">Rs 599 to 999(differ at sizes) </span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 frames">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/frames non-illustration 2.jpg " class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">non-illustraction frames</p>
+                            <span class = "fw-bold">Rs 299 to 850(differ at sizes)</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 frames">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/frames normal photo.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">photo frames</p>
+                            <span class = "fw-bold">Rs 250/- (differ at size)</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 frames">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/frames long distance.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">long distance frame</p>
+                            <span class = "fw-bold">Rs 499/- (differ at size)</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 case">
+                        <div class = "collection-img position-relative ">
+                            <img src = "images/phone case -customized.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Mobile case Customized</p>
+                            <span class = "fw-bold">Rs 299/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 case">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/phone case illustration.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Mobile case illustration</p>
+                            <span class = "fw-bold">Rs 599/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 polaroid">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/Polaroid pics 15.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Polaroid Design photo</p>
+                            <span class = "fw-bold">Rs 15/-</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 polaroid">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/Polaroid pics 10.jpg" class = "w-100 image">
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">polaroid normal photo</p>
+                            <span class = "fw-bold">Rs 10/-</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of collection -->
+
+    <!-- popular -->
+    <section id = "popular" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center pt-3 pb-5">
+                <h2 class = "position-relative d-inline-block ms-4">Popular Of This Year</h2>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-6 col-lg-4 row g-3">
+                    <h3 class = "fs-5">Top Rated</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/canvas illustraction print.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">canvas illustraction print</p>
+                            <span>Rs 899/-</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/canvas non illustration print.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">canvas non illustration print</p>
+                            <span>Rs 599/-</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/key chain illustration.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">key chain illustration</p>
+                            <span>Rs 550/-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 row g-3">
+                    <h3 class = "fs-5">Best Selling</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/phone case illustration.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">phone case illustration</p>
+                            <span>Rs 599/-</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/frames non illustion 3.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">frames non illustion(8x10 size)</p>
+                            <span>Rs 699/-</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/Polaroid pics 15.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">polaroid Design photo</p>
+                            <span>Rs 15/-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 row g-3">
+                    <h3 class = "fs-5">On Sale</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/key non-illustration.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">key chain non-illustration</p>
+                            <span>Rs 350/-</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/wallet minimal illustration.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">wallet minimal illustration</p>
+                            <span>Rs 580/-</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/wallet non-illustration.jpg" alt = "" class = "img-fluid pe-3 w-25 imagepop">
+                        <div>
+                            <p class = "mb-0">wallet non-illustration</p>
+                            <span>Rs 480/-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of popular -->
+
+    <!--contact form start-->
+    <div id="contactus" class = "title text-center pt-3 pb-5">
+        <h2 class = "position-relative d-inline-block ms-4">CONTACT FORM</h2>
+    </div>
+    <div class="container">
+      <div class="box">
+        <form id="form" onsubmit="SendEmail();reset(); return false;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br>
+        
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" required><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br>
+        
+                <label for="address">Address:</label>
+                <textarea id="address" required></textarea><br>
+        
+                <label for="product">Select Product:</label>
+                <select id="product" required>
+                    <option value="wallet cards">wallet cards</option>
+                    <option value="Keychain">Keychain</option>
+                    <option value="canvas">canvas</option>
+                    <option value="Frames">Frames</option>
+                    <option value="Mobile case">Mobile case</option>
+                    <option value="Polaroid Pics">Polaroid Pics</option>
+                    <option value="Long Distance Frames">Long Distance Frames</option>
+                </select><br>
+        
+                <label for="message">Message:</label>
+                <textarea id="message"></textarea><br>
+
+                <div class="button-container">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+        </form>
+      </div>
+    </div>
+    <!--contact form end-->
+    
+    <p class="text-center m-5">Follow us on <a id="followus" href="https://instagram.com/gift.innn?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">Instagram</a></p>
+    
+    <!-- jquery -->
+    <script src = "js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function SendEmail() {
+        var name = document.getElementById('name').value;
+            var mobile = document.getElementById('mobile').value;
+            var email = document.getElementById('email').value;
+            var address = document.getElementById('address').value;
+            var product = document.getElementById('product').value;
+            var message = document.getElementById('message').value;
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "giftinnn0@gmail.com",
+          Password: "FD8B1C7FD88B709AA0EE621DD960DFA04639",
+          To: "giftinnn0@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "your new customer",
+          Body:
+                (`Name :${name}<br><br>
+                mobile Number:${mobile}<br><br>
+                Email id :${email}<br><br>
+                Address:${address}<br><br>
+                product:${product}<br><br>
+                message:${message}<br><br><br>
+                `),
+
+        }).then((message) => alert(message));
+      }
+    </script>
+</body>
+</html>
